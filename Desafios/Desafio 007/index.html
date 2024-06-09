@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 007</title>
+</head>
+<body>
+    <h1>Imagem flexivel</h1>
+    <p>Você está vendo a imagem completa? experimente ampliar</p>
+    <picture>
+        <source media="(max-width: 350)" srcset="midias/kauegimp300" type="image/png">
+        <source media="(max-width:750)" srcset="midias/kauegimp700" type="image/png">
+        <img src="midias/kauegimp1000.png" alt="imagem flexivel">
+    </picture>
+</body>
+</html>
