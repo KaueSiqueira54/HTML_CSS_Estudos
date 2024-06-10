@@ -1,6 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 h1 {
-    color: red;
-    background-color: aqua;
+    color: #af0;
     font-size: 55px;
     font-weight:  100;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2 {
+
+}
+
+.imagemfundo {
+    height: 600px;
+    width: 100%;
+    background-color: rgb(183, 220, 252);
+    background-image: url("https://images.unsplash.com/photo-1717831499998-6f5bafe9e287?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHx8");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+p {
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 90px;
 }
