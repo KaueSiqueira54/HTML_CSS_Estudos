@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: #af0;
+    font-size: 5.0rem;
+    font-weight:  100;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2 ,h3 ,h4 , h5, h6 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 3.5rem;
+}
+
+.imagemfundo {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(183, 220, 252);
+    background-image: url("https://images.unsplash.com/photo-1717831499998-6f5bafe9e287?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHx8");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+a {
+    font-size: 3.4rem;
+    color: blueviolet;
+}
+
+a:visited {
+    color: aqua;
+}
+
+a:hover {
+    color: chartreuse;
+}
+
+p {
+    font-size: 1.8rem;
+    text-align: justify;
+    text-indent: 90px;
+}
